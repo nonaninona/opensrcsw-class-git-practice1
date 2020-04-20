@@ -17,6 +17,10 @@ public class Gugudan {
 			}
 			return;
 		}
+		else if(input < 0) {
+			System.out.println("구구단 출력 불가");
+			return;
+		}
 		for(int i=1;i<=9;i++) {
 			System.out.println(input + " X " + i + " = " + input*i);
 		}
